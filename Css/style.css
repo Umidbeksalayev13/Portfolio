@@ -11,6 +11,7 @@ body{
 .container{
     background-color: #040B14;
     display: flex ;
+   
 }
 
 .container .name{
@@ -39,14 +40,54 @@ body{
 
 .saidbar .icons {
     font-size: 20px;
-    margin-left: 80px;
+    margin-left: 45px;
     margin-top: 20px;
    display: flex;
    gap: 20px;
   
 }
+.saidbar .icons .border:hover{
+    background-color: rgb(64, 118, 190);
+}
+
+
+
+.saidbar .icons .border{
+    
+    height: 40px;
+    width: 40px;
+    background-color: rgb(42, 42, 42);
+    border-radius: 50%;
+}
+.saidbar .icons .border i{
+    display: flex;
+    padding: 10px;
+
+}
 
 .container .profil{
     display: flex;
 }
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(174, 167, 167);
+    margin-left: 25px;
+}
+
+.main-section{
+    background-size: cover;
+    width: 100%;
+    height: 930px;
+    background-image: url(/Img/hero-bg.jpg);
+}
+
 
