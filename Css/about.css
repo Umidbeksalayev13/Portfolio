@@ -1,0 +1,129 @@
+
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .about-section {
+    padding: 50px 170px;
+  }
+  
+  .about h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .about .liniya {
+    display: block;
+    width: 90px;
+    height: 3px;
+    background-color: #007dff;
+    margin-bottom: 25px;
+  }
+  
+  .about p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 95%;
+  }
+  
+
+  .about-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .my-profile img {
+    width: 430px;
+    border-radius: 10px;
+    border: 4px solid #eee;
+  }
+  
+  .developer {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .developer h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .developer p {
+    font-style: italic;
+    color: #555;
+    margin-top: 50px;
+    max-width: 700px;
+  }
+  
+  .birthday ul, .age ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+
+  }
+  
+  .birthday ul li,  .age ul li {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .birthday, .age {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+  }
+  
+  .about-img > p {
+    color: #444;
+    line-height: 1.6;
+    max-width: 100%;
+  }
+  
+
+  .smail {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 130px;
+  }
+  
+  .smail > div {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+   
+  }
+  
+  .smail i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .smail h1 {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .smail p {
+    font-size: 14px;
+    color: #666;
+  }
+   
+
+
+
