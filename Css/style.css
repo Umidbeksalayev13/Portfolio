@@ -75,6 +75,10 @@ body{
     gap: 40px;
     margin-top: 30px;
 }
+.menu a:hover,
+.menu a.active {
+    color: #149DDD;
+}
 
 
 .menu a{
