@@ -37,6 +37,7 @@
 .resume-item h3{
       font-family: Raleway, sans-serif;
       font-size: 26px;
+      padding-bottom: 12px;
 
     
 }
@@ -66,15 +67,30 @@
 .resume-items{
   position: relative; 
 }
-.resume-items::before{
+
+
+.resume-items::before {
   content: "";
   position: absolute;
-  width: 2px; 
-  height:100%;
+  width: 2px;
+  height: 100%;
   background: #149DDD;
-  margin-top: 20px;
-  margin-left: -40px;
+  top: 0;
+  left: -30px; 
 }
+
+.resume-items::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #149DDD;
+  background: #fff;
+  border-radius: 50%;
+  top: 0;
+  left: -38px; 
+}
+
 
 
 
