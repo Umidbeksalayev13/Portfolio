@@ -1,9 +1,6 @@
 
-* {
-    font-family: "Poppins", sans-serif;
-  }
-  
   .about-section {
+    margin-left: 300px;
     padding: 50px 170px;
   }
   
@@ -50,14 +47,17 @@
   }
   
   .developer h1 {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 600;
     color: #222;
     margin-bottom: 10px;
   }
-  
+  .developer .mee{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif
+  }
   .developer p {
-    font-style: italic;
     color: #555;
     margin-top: 50px;
     max-width: 700px;
